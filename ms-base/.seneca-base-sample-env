@@ -1,0 +1,4 @@
+SENECA_BASE_HOST=my-host
+SENECA_BASE_PORT=my-port
+SENECA_BASE_TIMEOUT=MicroserviceTimeout
+SENECA_BASE_BASES=basenode1:port,basenode2:port

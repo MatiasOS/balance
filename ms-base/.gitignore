@@ -1,7 +1,0 @@
-*.swp
-*.log
-*.env
-node_modules
-build
-.idea/
-.DS_Store

@@ -1,4 +1,4 @@
 export function processMsg () {
-  console.log(`I'm number ${process.env.BOILER_TAG}`)
-  return {solvedBy: process.env.BOILER_TAG}
+  console.log(`I'm number 3`)
+  return {solvedBy: 3}
 }

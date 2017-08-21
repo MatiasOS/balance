@@ -4,5 +4,5 @@ import * as process from './pipes/process'
 export default function logic () {
   let seneca = this
 
-  seneca.add('{cmd:process, target:msg}', ms.doFn(process.msg))
+  seneca.add('cmd:process, target:msg', ms.doFn(process.msg))
 }

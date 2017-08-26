@@ -50,8 +50,8 @@ module.exports = {
     local: {
       host:'localhost',
       ref:'origin/master',
-      repo:'git@github.com:bons/b-flow.git',
-      path:'/deploy/local',
+      repo:'git@github.com:MatiasOS/balance.git',
+      path:'./deploy/local',
       'pre-deploy':'git fetch --all',
       'post-deploy':'nvm use && sh install.sh --silent && pm2 startOrRestart ecosystem.config.js'
     }

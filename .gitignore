@@ -57,3 +57,6 @@ typings/
 # Webstorm
 .idea/
 .idea
+
+# Deploy
+deploy/

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../lib/pipes/filters/process.js"],"names":["processMsg","console","log","solvedBy"],"mappings":";;;;;QAAgBA,U,GAAAA,U;AAAT,SAASA,UAAT,GAAuB;AAC5BC,UAAQC,GAAR;AACA,SAAO,EAACC,UAAS,CAAV,EAAP;AACD","file":"process.js","sourcesContent":["export function processMsg () {\n  console.log(`I'm number 1`)\n  return {solvedBy:1}\n}\n"]}

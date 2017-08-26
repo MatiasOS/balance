@@ -16,7 +16,6 @@ production:
 
 build:
 	mkdir -p $(BUILD_DIR)
-	$(BABEL) ./utils -s -D -d $(BUILD_DIR)/utils
 	$(BABEL) ./srv/*.js -s -D -d $(BUILD_DIR)/
 
 run:

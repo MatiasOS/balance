@@ -6,6 +6,7 @@
   "homepage": "https://github.com/bons/seneca-base",
   "main": "srv/base.js",
   "scripts": {
+    "build": "make build",
     "dev": "make dev",
     "production": "make production",
     "start": "make production"

@@ -16,7 +16,6 @@ dev:
 
 build:
 	mkdir -p $(BUILD_DIR)
-	$(BABEL) ./lib -s -D -d $(BUILD_DIR)/lib
 	$(BABEL) ./srv/*.js -s -D -d $(BUILD_DIR)/
 
 production:

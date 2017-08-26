@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "make build",
     "generate-docs": "make generate-docs",
     "dev": "make dev",
     "test": "make test",

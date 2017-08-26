@@ -57,7 +57,7 @@ const opts = {
 
 Seneca(opts.seneca)
   .use('mesh', opts.mesh)
-  .ready(function () {
+  .ready( () => {
     console.log(this.id)
     this.act({role: 'ms-worker', cmd: 'process', target: 'msg'},
       (err, result) => {

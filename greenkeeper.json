@@ -1,0 +1,11 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "ms-base/package.json",
+        "ms-client/package.json",
+        "ms-worker1/package.json"
+      ]
+    }
+  }
+}
